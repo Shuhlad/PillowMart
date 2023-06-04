@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CCSS_005CALL_002ECSS/@EntryIndexedValue">wwwroot\css\all.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CCSS_005CANIMATE_002ECSS/@EntryIndexedValue">wwwroot\css\animate.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CCSS_005CFLATICON_002ECSS/@EntryIndexedValue">wwwroot\css\flaticon.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CCSS_005CMAGNIFIC_002DPOPUP_002ECSS/@EntryIndexedValue">wwwroot\css\magnific-popup.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CCSS_005COWL_002ECAROUSEL_002EMIN_002ECSS/@EntryIndexedValue">wwwroot\css\owl.carousel.min.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CCSS_005CTHEMIFY_002DICONS_002ECSS/@EntryIndexedValue">wwwroot\css\themify-icons.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CIMG_005CFAVICON_002EPNG/@EntryIndexedValue">wwwroot\img\favicon.png</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CCSS_005CSLICK_002ECSS/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005C_007EIMAGES/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=_002E_002E_005CWWWROOT_005CIMAGES_005CKOMMERCHESKAYA_002DNEDVIZHIMOST_002DALMATY_002EJPG/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CCSS_005CALL_002ECSS/@EntryIndexedValue">wwwroot\css\all.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CCSS_005CANIMATE_002ECSS/@EntryIndexedValue">wwwroot\css\animate.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CCSS_005CFLATICON_002ECSS/@EntryIndexedValue">wwwroot\css\flaticon.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CCSS_005CMAGNIFIC_002DPOPUP_002ECSS/@EntryIndexedValue">wwwroot\css\magnific-popup.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CCSS_005COWL_002ECAROUSEL_002EMIN_002ECSS/@EntryIndexedValue">wwwroot\css\owl.carousel.min.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CCSS_005CSLICK_002ECSS/@EntryIndexedValue">wwwroot\css\slick.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CCSS_005CTHEMIFY_002DICONS_002ECSS/@EntryIndexedValue">wwwroot\css\themify-icons.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CIMG_005CFAVICON_002EPNG/@EntryIndexedValue">wwwroot\img\favicon.png</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005C_007EIMAGES/@EntryIndexedValue">wwwroot\~images</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=_002E_002E_005CWWWROOT_005CIMAGES_005CKOMMERCHESKAYA_002DNEDVIZHIMOST_002DALMATY_002EJPG/@EntryIndexedValue">..\wwwroot\images\kommercheskaya-nedvizhimost-almaty.jpg</s:String></wpf:ResourceDictionary>

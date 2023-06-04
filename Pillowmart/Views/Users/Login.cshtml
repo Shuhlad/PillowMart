@@ -1,0 +1,35 @@
+﻿@model Pillowmart.Models.ViewModels.LoginViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<body class="enter-body">
+<div class="container">
+    <div class="reg-box">
+        <div class="input-box">
+            <h5 class="welcome-text">Welcome to the PillowMart.
+                Sign up to continue!</h5>
+            <form class="reg-form" asp-controller="Users" asp-action="Login" method="post" asp-antiforgery="true">
+                <div class="validation " asp-validation-summary="All"></div>
+                
+                <div>
+                    <input asp-for="Email" class="form-control for-labels" placeholder="Email address">
+                    <span asp-validation-for="Email"></span>
+                </div>
+                <div>
+                    <input asp-for="Password" class="form-control for-labels" placeholder="Password">
+                </div>
+                <button class="btn btn-dark reg-btn" type="submit">Sign up</button>
+            </form>
+        </div>
+    </div>
+    <div class="reg-box secondary-box">
+        <div class="secondary-text">
+            Don't have an account? <a class="link" asp-controller="Users" asp-action="SignUp" method="get">Sign Up</a>
+        </div>
+    </div>
+</div>
+
+</body>

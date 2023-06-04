@@ -1,0 +1,185 @@
+.chat-window {
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.avatar {
+    width: 90%;
+    height: 60px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+/*For login and register pages*/
+.enter-body{
+    background-image: url(../images/logo-hh-ru.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    background-color: white;
+    background-position-x: 940px;
+    background-position-y: 200px;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.reg-box{
+    background-color: white;
+    border: 2px solid rgb(216, 207, 207);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 35px;
+
+}
+.welcome-text{
+    font-size: 17px;
+    align-self: center;
+    color: #6c757d;
+    margin-bottom:40px;
+    text-align: center;
+
+}
+.input-box{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.input-box-logo {
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 110px;
+    height: 50px;
+}
+.for-labels {
+    border-radius: 5px;
+    width: 290px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid #6c757d;
+    background-color:#fafafa ;
+}
+.reg-form{
+    display: flex;
+    flex-direction: column;
+}
+.reg-btn{
+    margin-top: 15px;
+}
+.secondary-box{
+    margin-bottom: 45px;
+}
+.secondary-text{
+    margin: 20px 0 20px 0;
+}
+.radio-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.login-box{
+    margin-top: 10%;
+}
+
+/*Layout classes*/
+.navbar-items{
+    position: relative;
+    text-decoration: none;
+    color: #a0a0a0;
+    margin-right: 15px;
+}
+.logout-btn-image{
+    background-image: url(../images/logout.png);
+    width: 44px;
+    height: 44px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px
+}
+.red-color{
+    color: red;
+}
+.null-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+}
+/*Animations*/
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-items:after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navbar-items:hover{
+    color: red;
+}
+.navbar-items:hover:after{
+    width: 100%;
+}
+
+
+/*main*/
+.form-search{
+    display: flex;
+}
+.search-by-name{
+
+}
+.search-by-name-input{
+
+}
+.filter-btn{
+    height: 33px;
+    width: 68px;
+    margin-top: 28px;
+}
+.btn-sort-block{
+    margin-top: 20px;
+}
+.resume-card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*Detail*/
+.detail-card-box{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.avatar-detail{
+    width: 290px;
+    height: 290px;
+    margin: 20px 16px 16px 16px ;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
